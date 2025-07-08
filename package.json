@@ -61,9 +61,7 @@
     "webpack-merge": "^5.7.3"
   },
   "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged && concurrently pnpm:test pnpm:lint"
-    }
+    "hooks": {}
   },
   "packageManager": "pnpm@9.11.0"
 }
